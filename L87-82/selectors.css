@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-weight: bold;
+}
+
+div.main.red{
+    color: red;
+}
+
+.parent > .child:last-child{
+    color: red;
+}
+
+.parent > .baby:only-child{
+    color: red;
+}
+
+div~div[title = "Elzero"]:not(.no-need):not(.parent > div),
+div[title = "Hello"],
+div[title = "HTML"] {
+    color: red;
+}
+
+
+div div[title="Elzero"]:not(.no-need):not(.no-need > div):not(.parent > div):last-child{
+    color: red;
+}
+
+div:not(.no-need) div:nth-last-of-type(2) {
+    color: red;
+}
+
+.seven > div:first-child  div:nth-of-type(2){
+    color: red;
+}
+
+.eighth div:not(:first-child):not(:last-child), p{
+    color: red;
+}
