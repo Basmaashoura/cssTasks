@@ -1,0 +1,58 @@
+html {
+    font-size:20px;
+  }
+  div {
+    border: 3px solid orange;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  div p {
+    border: inherit;
+    padding: inherit;
+    background-color: #eeeeee;
+  }
+  
+  .first, .second, .third {
+    text-transform: capitalize;
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #eeeeee;
+  }
+  
+  .first {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 30px;
+  }
+  
+  .second {
+    font-family: "Cairo", sans-serif;;
+    font-weight: 700;
+  }
+  
+  .third {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+  }
+  
+  
+  .first-1, .second-2, .third-3 {
+    text-transform: capitalize;
+    text-align: center;
+  }
+  
+  .first-1 {
+    font-size: 2.5rem;
+  }
+  
+  .second-2 {
+    font-size: 2rem;
+  }
+  
+  .third-3 {
+    font-size: 1.5rem;
+  }
+  
