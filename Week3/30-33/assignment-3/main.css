@@ -1,0 +1,28 @@
+ul{
+    max-width: 400px;
+    padding: 10px;
+    list-style-type: none;
+    background-color: #eee;
+}
+
+.htmlo li {
+    list-style-type:decimal;
+    background-color: white; 
+    padding: 10px;
+    margin: 5px;
+}
+  
+.csso li{
+    list-style-type:upper-roman;
+    background-color: white; 
+    padding: 10px;
+    margin: 5px;
+}
+  
+.jso li{
+    list-style:circle inside;
+    background-color: white; 
+    padding: 10px;
+    margin:5px;
+}
+  
