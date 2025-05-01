@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pr {
+    margin: 20px auto; 
+    
+    position: absolute;
+}
+
+.ch {  
+    background-color: #eeeeee; 
+    display: inline-block; 
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    border-color: black;
+    box-shadow: 5px 5px #2196f3, -5px -5px #e91e63;
+    margin-left: 20px;
+    border: 2px black solid; 
+    counter-increment:memo;   
+}
+
+.ch::before{
+    content: counter(memo);
+    position: absolute;
+    background-color: black;
+    color: #eeeeee;
+    padding: 5px 10px;
+    border-radius: 50%;
+    float: left;
+    left: 33px;
+    top: -12px;
+    text-align: center;
+}
+
+.ch::after {
+    content:attr(data-thing);
+    position: absolute;
+    font-weight: bold;
+    top: 40px;
+    left: 18px;
+}

@@ -1,0 +1,18 @@
+div {
+    width: 300px;
+    height: 60px; 
+    margin: 20px auto;
+}
+
+.one, .three {
+    display: block;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    text-align: center;
+    line-height: 60px; 
+}
+
+.two:hover {
+    background-color: red;
+}
