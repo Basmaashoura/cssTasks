@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+a {
+    width: fit-content;
+    display: block;
+    
+    color: white;
+    background-color: #009688;
+    border-bottom: 5px solid #004942;
+    
+    padding: 20px;
+    margin: 20px auto;
+    
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size:20px;
+}
+
+div {
+    border: 3px solid orange;
+    padding: 20px;
+    text-align: center;
+}
+
+div p {
+    border: inherit;
+    padding: inherit;
+    background-color: #eeeeee;
+}

@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+.div1,
+.div2,
+.div3 {
+    background-color: #eeeeee;
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.div2,
+.div3 {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.div3 {
+    text-overflow: ellipsis;
+}

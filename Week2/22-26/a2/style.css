@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+.first, .second, .third {
+    text-transform: capitalize;
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+.first {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 30px;
+}
+
+.second {
+    font-family: "Cairo", sans-serif;;
+    font-weight: 700;
+}
+
+.third {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+}
+
+.first-1, .second-2, .third-3 {
+    text-transform: capitalize;
+    text-align: center;
+}
