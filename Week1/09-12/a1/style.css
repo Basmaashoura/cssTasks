@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+div {
+    display: inline-block;
+    margin: 20px;
+    background-color: #d4d4d4;
+    padding: 20px;
+    outline: 5px solid;
+    text-align: center;
+    height: max-content;
+    width: max-content;
+}
+
+.shape-1 {
+    border: red solid 5px;
+}
+
+.shape-2 {
+    border-color: blue green;
+    border-style: solid;
+}
+
+.shape-3 {
+    border-color: red green blue yellow;
+    border-style: dotted;
+}
+
